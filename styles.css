@@ -7,22 +7,19 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-image: url('header-image.png');
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
+    min-height: 150px; /* Adjust this value as needed */
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header-image {
-    max-width: 200px; /* Adjust this value as needed */
-    height: auto;
-    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text readability */
+    padding: 15px;
+    border-radius: 5px;
 }
 
 main {
@@ -64,6 +61,7 @@ footer {
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 h2 {
